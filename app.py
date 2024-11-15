@@ -5,7 +5,7 @@ from flask_mail import Mail, Message
 
 app = Flask(__name__)
 
-app.config["SECRET_KEY"] = "myapplication123"
+app.config["SECRET_KEY"] = ""
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///data.db"
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 465
